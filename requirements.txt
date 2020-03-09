@@ -1,0 +1,6 @@
+pandas
+
+# not using these, just for example:
+numpy
+sendgrid==5.6.0
+
