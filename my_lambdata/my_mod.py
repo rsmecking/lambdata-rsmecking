@@ -7,3 +7,12 @@ def enlarge(n):
     Function will enlarge the number
     """
     return n * 100
+
+
+
+
+
+
+print("HELLO")
+y = int(input("Please choose a number"))
+print()
