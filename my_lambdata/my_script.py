@@ -4,8 +4,9 @@
 import pandas
 
 from my_lambdata.my_mod import enlarge
-
-print("HELLO WORLD")
+from my_lambdata.my_mod import fib
+from my_lambdata.my_mod import fib2
+Sprint("HELLO WORLD")
 
 df = pandas.DataFrame({"state": ["CT", "CO", "CA", "TX"]})
 print (df.head())

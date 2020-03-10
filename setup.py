@@ -9,9 +9,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="rsmecking-lambdata-12",
-    version="1.0",
-    author="MJ Rossetti",
+    name="rsmecking-lambdata",
+    version="2.1",
+    author="Ryan Mecking",
     author_email="rsmecking@gmail.com",
     description="For example purposes",
     long_description=long_description,
