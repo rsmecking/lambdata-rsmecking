@@ -81,24 +81,23 @@ class DataProcessor():
         self.df["name"] = self.df["abbrev"].map(names_map)
         
 
+    # df1 = pandas.DataFrame({"abbrev": ["CT", "CO", "CA", "TX"]})
+    # df2 = pandas.DataFrame({"abbrev": ["AZ", "DC", "CO", "MI", "WI"]})
 
-    df1 = pandas.DataFrame({"abbrev": ["CT", "CO", "CA", "TX"]})
+    # for df in [df1, df2]:
+    #     print("-------")
+    #     my_frame = MyFrame(df)
+    #     print(type(my_frame))
+    #     my_frame.add_state_names()
+    #     print(my_frame.head())
 
-    df2 = pandas.DataFrame({"abbrev": ["AZ", "DC", "CO", "MI", "WI"]})
-
-    for df in [df1, df2]:
-        print("-------")
-        processor = DataProcessor(df)
-        print(type(processor))
-        processor.add_state_names()
-        print(processor.df.head()))
-
-
-# mutated_df = add_state_names(df) # desired invocation
-# print(mutated_df.head())
-
-
-
-# mutated_df2 = add_state_names(df2) # desired invocation
-# print (mutated_df2.head())
-
+print("-------")
+my_frame = MyFrame({"abbrev": ["CT", "CO", "CA", "TX"]})
+print(type(my_frame))
+my_frame.add_state_names()
+print(my_frame.head())
+print("-------")
+my_frame = MyFrame({"abbrev": ["AZ", "DC", "CO", "MI", "WI"]})
+print(type(my_frame))
+my_frame.add_state_names()
+print(my_frame.head())
