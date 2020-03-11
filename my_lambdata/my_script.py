@@ -3,10 +3,10 @@
 
 import pandas
 
-from my_lambdata.my_mod import enlarge
-from my_lambdata.my_mod import fib
-from my_lambdata.my_mod import fib2
-Sprint("HELLO WORLD")
+from my_lambdata.my_mod import enlarge, fib, fib2
+from my_lambdata 
+
+print("HELLO WORLD")
 
 df = pandas.DataFrame({"state": ["CT", "CO", "CA", "TX"]})
 print (df.head())
